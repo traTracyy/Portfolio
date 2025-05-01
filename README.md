@@ -60,10 +60,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
     "description": "",
     "details": "",
     "language": ["", ""],
-    "technologies": ["", "" ]
-    "github": "", // if exist
-    "youtube": "", // if exist
-    "images": ["", ""] // if exist
+    "technologies": ["", "" ],
+    "github": "",
+    "youtube": "",
+    "images": ["", ""] 
 }
 ```
 
