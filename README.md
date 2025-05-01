@@ -2,7 +2,7 @@
 
 Welcome to the source code of **Khor You Qi's Personal Portfolio Website**, a minimal and clean developer portfolio built using modern frontend technologies. This site showcases selected projects, a short professional bio, and downloadable assets such as my resume and personal illustrations.
 
-🔗 [Live Site](https://khoryouqi.vercel.app/)
+**🔗 [Live Site](https://khoryouqi.vercel.app/)**
 
 ## 🌐 Overview
 
@@ -41,8 +41,8 @@ The website features:
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/khory-youqi-portfolio.git
-cd khory-youqi-portfolio
+git clone https://github.com/traTracyy/Portfolio
+cd Portfolio
 npm install
 npm run dev
 ```
