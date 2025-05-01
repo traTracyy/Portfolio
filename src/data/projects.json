@@ -1,0 +1,73 @@
+[
+  {
+    "id": "skinwise",
+    "title": "SkinWise - AI Skin Disease Diagnostic System",
+    "description": "A mobile application called SkinWise integrates artificial intelligence with telemedicine to provide early and accessible skin disease diagnosis and consultation, particularly benefiting underserved regions.",
+    "details": "This final year project presents SkinWise, a user-interactive AI-powered mobile application designed to diagnose eight common skin lesion types and facilitate remote consultations with dermatologists. The application utilizes Convolutional Neural Networks (CNNs) for image-based classification and offers features such as result storage, dermatologist booking, and educational content on skin conditions. Developed using tools like Android Studio and TensorFlow, the system ensures usability for patients, dermatologists, and administrators. It addresses challenges in conventional dermatological diagnosis, such as subjectivity and limited access, aiming to improve healthcare equity, efficiency, and engagement through technology.",
+    "language": ["Java", "Python"],
+    "technologies": ["TensorFlow", "Keras", "Firebase", "Android Studio", "CNN", "MobileNet", "Transfer Learning", "Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+    "github": "https://github.com/traTracyy/skinwise",
+    "youtube": "Pinnd7Vx470",
+    "images": ["/project/skinwise/skinwise0.png","/project/skinwise/skinwise12.png","/project/skinwise/skinwise1.png","/project/skinwise/skinwise2.png","/project/skinwise/skinwise3.png","/project/skinwise/skinwise4.png","/project/skinwise/skinwise5.png","/project/skinwise/skinwise6.png","/project/skinwise/skinwise7.png","/project/skinwise/skinwise8.png","/project/skinwise/skinwise9.png","/project/skinwise/skinwise10.png","/project/skinwise/skinwise11.png"]
+  },
+  {
+    "id": "hypertension",
+    "title": "Lifestyle Disease Analytics (Hypertensive)",
+    "description": "A big data analytics project focused on hypertension prediction using machine learning and health indicators such as BMI, glucose, and lifestyle factors, employing the CRISP-DM methodology.",
+    "details": "This report details a data analytics project aiming to identify and predict hypertension using health indicators and lifestyle variables through descriptive and predictive modeling. The team used the MSFactors dataset containing metabolic syndrome attributes. The project adopted the CRISP-DM methodology and applied techniques such as k-means clustering, association rules, decision trees, SVM, Naive Bayes, and logistic regression. Extensive exploratory data analysis (EDA) and data preprocessing were carried out, including handling outliers, feature engineering, and normalization. Visualization tools like Power BI were employed to interpret patterns, while evaluation metrics such as accuracy, AUC, and confusion matrices assessed model performance. The findings provide insights into risk factors and potential interventions for hypertension management.",
+    "language": ["R", "Python"],
+    "technologies": ["R", "Power BI", "TensorFlow", "Scikit-learn", "SVM", "Naive Bayes", "Logistic Regression", "K-means Clustering", "Decision Tree", "Association Rule Mining"],
+    "github": "https://github.com/traTracyy/Lifestyle-Disease-Analytics-Hypertensive",
+    "youtube": "2s6fTRiylRM",
+    "images": ["/project/hypertension/hpt1.png","/project/hypertension/hpt2.png","/project/hypertension/hpt3.png","/project/hypertension/hpt4.png","/project/hypertension/hpt5.png","/project/hypertension/hpt6.png","/project/hypertension/hpt7.png","/project/hypertension/hpt8.png","/project/hypertension/hpt9.png"]
+  },
+  {
+    "id": "employee-dataset-analysis",
+    "title": "Employee Attrition Analysis",
+    "description": "This project uses R programming to analyze employee attrition patterns in a company. It investigates factors such as gender, age, department, and job role impacting turnover.",
+    "details": "This data analysis project explores a company’s HR data to uncover insights into employee attrition trends. Using R, the study addresses questions around gender balance, voluntary resignations, departmental and positional crises, age-based trends, and generational employment behaviors. Analyses included data cleaning, exploration, and visualization using various R packages. The study found that retirements dominate voluntary exits, some departments face an aging workforce, and headcount crises are linked to insufficient recruitment. Recommendations include targeted hiring and proactive HR planning to mitigate workforce instability.",
+    "language": ["R"],
+    "technologies": ["R", "ggplot2", "Statistical Analysis", "Data Visualization"],
+    "github": "https://github.com/traTracyy/Employee-Attrition-Analysis",
+    "youtube": "4GdtL0PhLEI",
+    "images": ["/project/employee-dataset/ea1.png","/project/employee-dataset/ea2.png","/project/employee-dataset/ea3.png","/project/employee-dataset/ea4.png","/project/employee-dataset/ea5.png","/project/employee-dataset/ea6.png","/project/employee-dataset/ea7.png"]
+  },  
+  {
+    "id": "diabetes-prediction",
+    "title": "Diabetes Prediction Model",
+    "description": "A machine learning model to predict diabetes risk using healthcare data, applying classification algorithms and evaluating model performance for early diagnosis.",
+    "details": "This project explores the development of a diabetes prediction model using machine learning techniques including Logistic Regression, Random Forest, and Naive Bayes. The project encompasses data preprocessing, feature selection, model training, hyperparameter tuning, and performance evaluation. Despite not achieving the target 90% accuracy, the Random Forest model reached a maximum accuracy of 82%. The study discusses the potential and limitations of using ML in medical diagnosis and suggests directions for future improvements such as dataset expansion, algorithm enhancement, and diversity considerations.",
+    "language": ["Python"],
+    "technologies": ["Pandas","NumPy","Matplotlib","Seaborn","Scikit-learn","GridSearchCV","RandomForestClassifier","LogisticRegression","KNeighborsClassifier","GaussianNB"],
+    "images": ["/project/diabetes-prediction/dpm1.png","/project/diabetes-prediction/dpm2.png","/project/diabetes-prediction/dpm3.png"]
+  },
+  {
+    "id": "twitter-tweets-sentiment-model",
+    "title": "Twitter Tweets Sentiment Model",
+    "description": "A supervised text classification project using machine learning to analyze Twitter sentiments. It includes text preprocessing, model building, evaluation, and comparison of classifiers.",
+    "details": "This project applies machine learning to perform sentiment analysis on a Twitter dataset obtained from Kaggle. The process includes comprehensive text preprocessing steps such as tokenization, stopword removal, lemmatization, and spelling correction. Three models—Support Vector Classifier, Logistic Regression, and Random Forest—were built and evaluated using precision, recall, F1-score, and accuracy. The SVM model performed best, achieving 89% accuracy. Additionally, SAS Text Miner was used for comparative modeling. The project highlights the importance of data cleaning, hyperparameter tuning, and classifier selection in achieving accurate sentiment classification.",
+    "language": ["Python"],
+    "technologies": ["Python", "Scikit-learn", "NLTK", "TextBlob", "Spacy", "SAS Text Miner"],
+    "images": ["/project/twitter-tweets/ttsm1.png","/project/twitter-tweets/ttsm2.png","/project/twitter-tweets/ttsm3.png","/project/twitter-tweets/ttsm4.png","/project/twitter-tweets/ttsm5.png","/project/twitter-tweets/ttsm6.png"]
+  },
+  {
+    "id": "arti-sun",
+    "title": "Arti-Sun: Mobile App for Artisan E-Commerce",
+    "description": "A mobile application designed to empower Malaysian artisans, especially women and housewives, by providing an e-commerce platform to sell handmade products and support local craftsmanship.",
+    "details": "Arti-Sun is an Android-based mobile application developed to address the sales challenges faced by low-income or unemployed artisans in Malaysia. It enables artisans to register as sellers, list handmade products, manage orders, and interact with buyers. The app supports user and seller account types, with dedicated interfaces for each, including features like product management, order status updates, reviews, and e-wallet integration. It leverages Firebase for authentication, real-time database, and storage, with a strong emphasis on usability and real-time data handling. Automated testing using Firebase Test Lab helped optimize functionality and user experience. The application was built using Java and Android Studio.",
+    "language": ["Java"],
+    "technologies": ["Firebase Authentication","Firebase Realtime Database","Firebase Storage","Android Studio","Glide","Picasso","AndroidEasySQL","JUnit","Espresso"],
+    "github": "https://github.com/traTracyy/Arti-Sun",
+    "youtube": "3dEONJudtf0",
+    "images": ["/project/arti-sun/arti1.png","/project/arti-sun/arti2.png","/project/arti-sun/arti3.png","/project/arti-sun/arti4.png","/project/arti-sun/arti5.png","/project/arti-sun/arti6.png","/project/arti-sun/arti7.png","/project/arti-sun/arti8.png","/project/arti-sun/arti9.png","/project/arti-sun/arti10.png","/project/arti-sun/arti11.png","/project/arti-sun/arti12.png","/project/arti-sun/arti13.png","/project/arti-sun/arti14.png","/project/arti-sun/arti15.png"]
+  },
+  {
+    "id": "cafeteria-ordering-system",
+    "title": "Cafeteria Ordering System",
+    "description": "A Java-based cafeteria ordering system that enables customer registration, order placement, e-wallet top-up, and manager functionalities including menu management and report generation.",
+    "details": "This is an Object-Oriented Java application that supports cafeteria operations such as customer registration, login, food ordering, payment via e-wallet, and feedback submission. Managers can manage menus, reset passwords, monitor order statuses, and generate monthly reports. Developed with a user-friendly interface, the system includes extensive use of OOP principles like encapsulation, inheritance, and file handling for persistent data storage. Multiple UML diagrams and use case flows illustrate the system's structure and user interactions, enhancing maintainability and scalability.",
+    "language": ["Java"],
+    "technologies": ["Java", "Swing", "File I/O", "GUI Design", "Object-Oriented Programming"],
+    "images": ["/project/cafeteria-ordering/cos1.png","/project/cafeteria-ordering/cos2.png","/project/cafeteria-ordering/cos3.png","/project/cafeteria-ordering/cos4.png"]
+  }
+]

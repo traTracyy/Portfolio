@@ -1,0 +1,132 @@
+.resumeContent {
+  padding: 1rem 0;
+  background-color: white;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.resumeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.downloadButton {
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.downloadButton:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+.resumeViewer {
+  border: 1px dashed black;
+  min-height: 70vh;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.pdfContainer {
+  height: 70vh;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.loading, .error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #666;
+  font-style: italic;
+}
+
+.avatarCorner {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-right: 2%;
+  transition: transform 0.3s ease; 
+}
+
+.avatarCorner:hover {
+  transform: scale(1.3);
+}
+
+.avatarPlaceholder {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/character1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  opacity: 0.8;
+  transition: background-image 0.3s ease;
+}
+
+
+.avatarPlaceholder:hover {
+  background-image: url('../assets/character3.png');
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .resumeHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .pdfContainer {
+    padding: 1rem;
+  }
+
+  .avatarCorner {
+    width: 60px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .downloadButton {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .avatarCorner {
+    width: 50px;
+    height: 75px;
+  }
+}

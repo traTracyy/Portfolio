@@ -1,0 +1,115 @@
+.main {
+    min-height: calc(100vh - 80px);
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .backLink {
+    margin-bottom: 2rem;
+  }
+  
+  .backLink a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .backLink a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #D9D9D9;
+    background-image: url('../assets/bg4.png');
+    background-position: -50px 50px;
+    background-size: 70% auto; 
+    background-repeat: no-repeat;
+  }
+  
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .projectContent h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .projectContent p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .techList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .techList li {
+    background-color: #f5f5f5;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .langList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .langList li {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  .linkContainer {
+    margin-top: 1rem;
+  }
+  
+  .githubLink {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .githubLink:hover {
+    background-color: #333;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 1rem;
+    }
+  }

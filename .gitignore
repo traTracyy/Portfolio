@@ -1,0 +1,12 @@
+node_modules
+# Ignore build/cache folders
+cache/
+.next/
+out/
+dist/
+
+# Ignore static resources
+public/project/
+
+# Ignore local assets
+src/assets/

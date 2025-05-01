@@ -1,0 +1,85 @@
+.main {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/bg5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125vmin;
+  background-color: white;
+  margin-top: -7vmin;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+.contactSection {
+  padding: 2rem;
+  position: relative;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactItem {
+  display: flex;
+  align-items: baseline; 
+}
+
+.contactLabel {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: end;
+  color: black;
+  min-width: 150px; 
+}
+
+.contactValue {
+  font-size: 1rem;
+  margin-left: 2rem;
+  flex-grow: 1;
+}
+
+.contactValue a {
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contactValue a:hover {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .contactItem {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .contactLabel {
+    min-width: auto;
+  }
+}
