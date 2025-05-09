@@ -1,4 +1,68 @@
-.resumeContent {
+ .zoomControls {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  z-index: 3;
+}
+
+.zoomButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.zoomButton:hover {
+  background-color: #e0e0e0;
+}
+
+.zoomValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.zoomFit {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .zoomControls {
+    bottom: 0.5rem;
+    left: 0.5rem;
+    padding: 0.2rem;
+  }
+  
+  .zoomButton {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .zoomValue {
+    padding: 0 0.3rem;
+    font-size: 0.8rem;
+  }
+  
+  .zoomFit {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.75rem;
+  }
+}.resumeContent {
   padding: 1rem 0;
   background-color: white;
   width: 100%;
@@ -53,6 +117,17 @@
   justify-content: center;
 }
 
+.pdfDocument {
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+}
+
+.pdfPage {
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
 .loading, .error {
   display: flex;
   justify-content: center;
@@ -95,38 +170,110 @@
 }
 
 @media (max-width: 768px) {
+  .resumeContent {
+    padding: 0.75rem 0;
+  }
+  
   .container {
     padding: 0 1rem;
   }
   
   .resumeHeader {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: row; 
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    flex: 1; 
+    margin-right: 0.5rem;
+  }
+  
+  .downloadButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    white-space: nowrap; 
+  }
+
+  .resumeViewer {
+    border-width: 1px;
+    min-height: 60vh; 
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
   }
 
   .pdfContainer {
-    padding: 1rem;
+    height: 60vh;
+    padding: 0.5rem;
+  }
+  
+  .pdfDocument {
+    width: 100%;
+    max-width: 100%; 
+    transform-origin: top center; 
+  }
+  
+  .pdfPage {
+    margin-bottom: 0.75rem;
   }
 
   .avatarCorner {
-    width: 60px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    margin-right: 0;
+  }
+  
+  .avatarCorner:hover {
+    transform: scale(1.15);
   }
 }
 
 @media (max-width: 480px) {
+  .resumeContent {
+    padding: 0.5rem 0;
+  }
+  
   .title {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
   
   .downloadButton {
-    padding: 0.6rem 1.5rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .resumeViewer {
+    min-height: 50vh;
+  }
+  
+  .pdfContainer {
+    height: 60vh;
+    padding: 0.25rem;
+  }
+  
+  .pdfDocument {
+    width: 100%;
+    max-width: 100%;
+    transform-origin: top center;
+    margin: 0 auto;
+  }
+  
+  .pdfPage {
+    margin-bottom: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12);
   }
   
   .avatarCorner {
     width: 50px;
-    height: 75px;
+    height: 50px;
+    bottom: 0.25rem;
+    right: 0.25rem;
+  }
+  
+  .avatarCorner:hover {
+    transform: none; 
   }
 }

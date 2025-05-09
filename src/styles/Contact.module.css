@@ -76,10 +76,35 @@
 @media (max-width: 768px) {
   .contactItem {
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.1rem;
   }
   
   .contactLabel {
     min-width: auto;
+    text-align: left;
+    font-size: 0.75rem;
+  }
+  
+  .contactValue {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+  
+  .title {
+    font-size: 1rem; 
+    margin-bottom: 0.1rem;
+    margin-top: -2.5rem;
+  }
+  
+  .contactSection {
+    padding: 0.4rem 0.3rem; 
+  }
+  
+  .contactDetails {
+    gap: 0.1rem;
+  }
+  
+  .container {
+    padding: 0 0.1rem; 
   }
 }
